@@ -139,6 +139,10 @@
             background-color: rgba(255, 255, 255, 0.8);
             backdrop-filter: blur(4px);
         }
+        .bg-white-20 {
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(4px);
+        }
         .bg-white-glass {
             background: rgba(255, 255, 255, 0.8);
             backdrop-filter: blur(16px);
@@ -163,6 +167,7 @@
         .border-t { border-top: 1px solid rgba(255, 255, 255, 0.2); }
         .border-b { border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
         .border-white-20 { border: 1px solid rgba(255, 255, 255, 0.2); }
+        .border-white-25 { border: 1px solid rgba(255, 255, 255, 0.25); }
         .border-white-30 { border: 1px solid rgba(255, 255, 255, 0.3); }
         .border-cyan-200 { border: 1px solid #a5f3fc; }
 
@@ -492,11 +497,11 @@
                             <h1 class="text-3xl font-bold mb-2">Ciao! Benvenuta! 👋</h1>
                             <p class="text-orange-100 text-lg">Pronti per oggi lezione di italiano?</p>
                             <div class="mt-6 flex items-center space-x-6 text-sm">
-                                <div class="flex items-center bg-white-80 rounded-full px-3 py-1">
+                                <div class="flex items-center bg-white-20 rounded-full border-white-25 px-3 py-1">
                                     ${icons.starOutline}
                                     <span class="font-semibold ml-2">Livello: ${currentState.userStats.level}</span>
                                 </div>
-                                <div class="flex items-center bg-white-80 rounded-full px-3 py-1">
+                                <div class="flex items-center bg-white-20 rounded-full  border-white-25 px-3 py-1">
                                     ${icons.award}
                                     <span class="font-semibold ml-2">${currentState.userStats.streak} giorni</span>
                                 </div>
