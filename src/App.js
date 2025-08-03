@@ -58,7 +58,7 @@ function ItalianTutorApp() {
     </div>
   );
 
-  const ItalianTutorApp = () => {
+
     const [isRecording, setIsRecording] = useState(false);
     const [currentScreen, setCurrentScreen] = useState('home');
     const [messages, setMessages] = useState([
@@ -439,7 +439,7 @@ function ItalianTutorApp() {
         </div>
       </div>
     );
-  };
+
 }
 
 export default ItalianTutorApp;
