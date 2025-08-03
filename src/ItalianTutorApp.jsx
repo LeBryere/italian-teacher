@@ -1,3 +1,7 @@
+import React, { useState, useRef, useEffect } from 'react';
+import { Mic, MicOff, Play, Pause, Send, Volume2, Star, Award, BookOpen, MessageCircle, Settings, Home, BarChart3 } from 'lucide-react';
+
+function ItalianTutorApp() {
 const StatsScreen = () => (
     <div className="space-y-6">
       <div className="bg-gradient-to-r from-orange-500 to-amber-400 -mx-6 p-8 text-white">
@@ -52,8 +56,7 @@ const StatsScreen = () => (
         </div>
       </div>
     </div>
-  );import React, { useState, useRef, useEffect } from 'react';
-import { Mic, MicOff, Play, Pause, Send, Volume2, Star, Award, BookOpen, MessageCircle, Settings, Home, BarChart3 } from 'lucide-react';
+  );
 
 const ItalianTutorApp = () => {
   const [isRecording, setIsRecording] = useState(false);
@@ -62,7 +65,7 @@ const ItalianTutorApp = () => {
     {
       id: 1,
       type: 'ai',
-      text: 'Ciao bella! Come stai oggi? Raccontami della tua giornata.',
+      text: 'Ciao Emma! Come stai oggi? Raccontami della tua giornata.',
       translation: 'Szia szépségem! Hogy vagy ma? Mesélj a napodról.',
       audioUrl: null
     }
@@ -442,5 +445,6 @@ const ItalianTutorApp = () => {
     </div>
   );
 };
+}
 
 export default ItalianTutorApp;
