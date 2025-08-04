@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/italian-teacher/static/css/main.b082c1aa.css",
-    "main.js": "/italian-teacher/static/js/main.160e79ec.js",
+    "main.js": "/italian-teacher/static/js/main.4be6e9f2.js",
     "static/js/453.9a4b0aaf.chunk.js": "/italian-teacher/static/js/453.9a4b0aaf.chunk.js",
     "index.html": "/italian-teacher/index.html",
     "main.b082c1aa.css.map": "/italian-teacher/static/css/main.b082c1aa.css.map",
-    "main.160e79ec.js.map": "/italian-teacher/static/js/main.160e79ec.js.map",
+    "main.4be6e9f2.js.map": "/italian-teacher/static/js/main.4be6e9f2.js.map",
     "453.9a4b0aaf.chunk.js.map": "/italian-teacher/static/js/453.9a4b0aaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b082c1aa.css",
-    "static/js/main.160e79ec.js"
+    "static/js/main.4be6e9f2.js"
   ]
 }
